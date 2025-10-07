@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    font-family: "Inter", sans-serif;
+}
+
+@import "tailwindcss";
+@plugin "daisyui";
+
+a.active{
+   border-bottom: 2px solid transparent;
+   border-image: linear-gradient(to right, #632ee3, #9f62f2)1;
+   background: linear-gradient(to right ,#632ee3,#9f62f2);
+   background-clip: text;
+   color: transparent;
+   font-weight: bold;
+}
+
