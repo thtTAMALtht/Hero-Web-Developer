@@ -16,3 +16,6 @@ a.active{
    font-weight: bold;
 }
 
+ul li:hover{
+    color: #9f62f2;
+}
