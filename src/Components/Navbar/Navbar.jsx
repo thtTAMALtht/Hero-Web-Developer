@@ -11,7 +11,7 @@ const Navbar = () => {
         <NavLink to="/">Home</NavLink>
       </li>
       <li>
-        <NavLink to="/apps">Apps</NavLink>
+        <NavLink to="/applications">Apps</NavLink>
       </li>
       <li>
         <NavLink to="/installation">Installation</NavLink>
@@ -21,7 +21,7 @@ const Navbar = () => {
   return (
     <Container>
       <div className="navbar p-0">
-        <div className="navbar-start flex justify-between lg:block">
+        <div className="navbar-start ">
           <div className="dropdown">
             <div
               tabIndex={0}
@@ -37,7 +37,7 @@ const Navbar = () => {
               {links}
             </ul>
           </div>
-          <Link className="flex items-center gap-2">
+          <Link className="flex items-center gap-2 mx-auto lg:mx-0">
             <img className="w-12" src={logoImage} alt="logo-image" />
             <span className="font-bold bg-gradient-to-r from-[#632ee3] to-[#9f62f2] bg-clip-text text-transparent">
               HERO.IO

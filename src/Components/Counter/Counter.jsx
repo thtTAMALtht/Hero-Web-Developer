@@ -8,7 +8,7 @@ const Counter = () => {
                 <div>
                     <h3 className='text-center text-3xl lg:text-5xl font-bold text-white'>Trusted by Millions, Built for You</h3>
                 </div>
-                <div className='flex flex-col lg:flex-row justify-center gap-12 text-center pt-12'>
+                <div className='flex flex-col lg:flex-row justify-center gap-20 text-center pt-12'>
                     <div className='space-y-4'>
                         <h5 className=' text-[#E6DAFB]'>Total Downloads</h5>
                         <h3 className='font-bold text-white text-6xl'>29.6M</h3>
