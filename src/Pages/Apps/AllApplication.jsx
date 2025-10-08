@@ -56,7 +56,7 @@ const AllApplication = () => {
         {
             searchProducts.length === 0 
             ? 
-            <div className="flex  justify-center items-center py-[110px] rounded-lg">
+            <div className="flex  justify-center items-center lg:py-[110px] rounded-lg">
                 <h3 className="text-xl lg:text-6xl font-bold text-center">Unfortunately we could't find the app<br></br> you are looking for ☹</h3>
             </div> 
             : 
