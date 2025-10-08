@@ -17,13 +17,13 @@ const AppsCard = ({ app }) => {
         <div className="">
           <img className="w-full h-[220px]" src={image} alt="" />
         </div>
-        <div>
+        <div className="text-center">
           <h3 className="font-semibold">{title}</h3>
         </div>
         <div className="flex justify-between">
           <div className="flex items-center bg-[#F1F5E8] gap-2 px-3 py-1 rounded-md">
             <img className="w-4" src={downloadImage} alt="download iconImg" />
-            <span className="text-[#00D390]">{downloads}</span>
+            <span className="text-[#00D390]">{downloads}K</span>
           </div>
           <div className="flex items-center bg-[#FFF0E1] gap-2 px-3 py-1 rounded-md">
             <img className="w-4" src={ratingImage} alt="download iconImg" />

@@ -122,7 +122,7 @@ const AppDetails = () => {
               <div className="flex flex-col items-center space-y-2">
                 <img className="w-6" src={downloadImage} alt="download image" />
                 <p className="text-xs text-[#627382]">Downloads</p>
-                <h5 className="font-bold text-4xl">{downloads}</h5>
+                <h5 className="font-bold text-4xl">{downloads}K</h5>
               </div>
               <div className="flex flex-col items-center space-y-2">
                 <img className="w-6" src={ratingImage} alt="rating image" />

@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import Container from "../../Components/Container/Container";
 import InstalledCard from "./InstalledCard";
 import { Link } from "react-router";
+import { toast } from "react-toastify";
 
 const Installations = () => {
   const [installedApp, setInstalledApp] = useState([]);
@@ -15,9 +16,9 @@ const Installations = () => {
 
   const sortedItem = () => {
     if (sortOrder === "size-asc") {
-      return [...installedApp].sort((a, b) => a.size - b.size);
+      return [...installedApp].sort((a, b) => a.downloads - b.downloads);
     } else if (sortOrder === "size-desc") {
-      return [...installedApp].sort((a, b) => b.size - a.size);
+      return [...installedApp].sort((a, b) => b.downloads - a.downloads);
     } else {
       return installedApp;
     }
@@ -28,6 +29,7 @@ const Installations = () => {
     let updatedList = savedItems.filter((item) => item.id !== id);
     setInstalledApp(updatedList);
     localStorage.setItem("installed", JSON.stringify(updatedList));
+    toast.warning("Uninstalled successfully")
   };
 
   return (

@@ -43,12 +43,12 @@
 ---
 
 ## 🌐 Live Demo
-[View Live Demo](https://hero-app-developer.netlify.app/)
+[View Live Demo](https://https://hero-app-vista.netlify.app/)
 
 ---
 
 ## 🚀 Installation
 
-- Clone the repository:
+**Clone the repository:**
    ```bash
    git clone https://github.com/thtTAMALtht/Hero-Web-Developer.git

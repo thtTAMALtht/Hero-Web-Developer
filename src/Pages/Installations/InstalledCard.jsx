@@ -28,7 +28,7 @@ const InstalledCard = ({ item,handleRemove }) => {
             <div className="flex gap-4 ">
               <div className="flex items-center gap-1">
                 <img className="w-4" src={downloadImage} alt="" />
-                <span className="text-[#00D390]">{downloads}</span>
+                <span className="text-[#00D390]">{downloads}K</span>
               </div>
               <div className="flex items-center gap-1">
                 <img className="w-4" src={ratingImage} alt="" />

@@ -34,7 +34,7 @@ const AllApplication = () => {
             Explore All Apps on the Market developed by us. We code for Millions
           </p>
         </div>
-        <div className="flex flex-col lg:flex-row  justify-between items-center py-4">
+        <div className="flex flex-col lg:flex-row  justify-between items-center py-4 space-y-4 lg:space-y-0">
           <div>
             <h2 className="font-semibold text-xl">
               <span>({searchProducts.length})</span> Apps Found
@@ -60,8 +60,8 @@ const AllApplication = () => {
         {
             searchProducts.length === 0 
             ? 
-            <div className="flex  justify-center items-center lg:py-[110px] rounded-lg">
-                <h3 className="text-xl lg:text-6xl font-bold text-center">Unfortunately we could't find the app<br></br> you are looking for ☹</h3>
+            <div className="flex  justify-center items-center lg:py-[90px] rounded-lg">
+                <h3 className="text-xl lg:text-6xl font-semi-bold text-center lg:leading-20">Unfortunately we could't find the app<br></br> you are looking for 🥺 !</h3>
             </div> 
             : 
             <div className="grid grid-cols-1 lg:grid-cols-4 gap-4">
