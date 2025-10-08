@@ -1,16 +1,47 @@
-# React + Vite
+# 🚀 Hero AppVista
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![React](https://img.shields.io/badge/React-17.0.2-blue?logo=react&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-3.3.2-blue?logo=tailwindcss&logoColor=white)
+![DaisyUI](https://img.shields.io/badge/DaisyUI-2.1.0-pink?logo=tailwindcss&logoColor=white)
+![React Router](https://img.shields.io/badge/React_Router-6.15.0-red?logo=reactrouter&logoColor=white)
+![React Toastify](https://img.shields.io/badge/Toastify-9.2.0-yellow?logo=react&logoColor=white)
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Description
+**Hero AppVista** is a React-based application for viewing app details in a clean and interactive interface. Users can:  
 
-## React Compiler
+- View app information like title, developer, downloads, ratings, reviews, and description.  
+- Install apps and save installed apps in the browser's **localStorage** to prevent duplicates.  
+- See visual representation of ratings using **vertical bar charts**.  
+- Navigate error pages when requested apps are not found.  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠 Features
+- View app details including title, developer, downloads, ratings, and reviews.  
+- Install apps with localStorage persistence.  
+- Prevent duplicate installations.  
+- Persist installation state even after page reload.  
+- Ratings visualized using **Recharts** vertical bar charts.  
+- Responsive design using **Tailwind CSS** & **DaisyUI**.  
+- Notifications using **React Toastify**.  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠 Technologies Used
+- **React** – Frontend library  
+- **React Router** – Client-side routing  
+- **Tailwind CSS** – Styling  
+- **DaisyUI** – Tailwind CSS components  
+- **React Icons** – Icons  
+- **React Toastify** – Notifications  
+- **Recharts** – Charts for ratings visualization  
+- **LocalStorage** – To save installed apps  
+
+---
+
+## 🌐 Live Demo
+[View Live Demo](https://your-live-demo-link.com)  
+
+---

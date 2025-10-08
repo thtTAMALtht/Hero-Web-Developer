@@ -3,15 +3,15 @@ import Container from "../../Components/Container/Container";
 import downloadImage from "../../assets/icon-downloads.png";
 import ratingImage from "../../assets/icon-ratings.png";
 import reviewImage from "../../assets/icon-review.png";
-import { useParams } from "react-router";
+import { Link, useParams } from "react-router";
 import useAppsHook from "../../Hooks/useAppsHook";
+import appErrorImage from "../../assets/App-Error.png";
 
 import {
   BarChart,
   Bar,
   XAxis,
   YAxis,
-  CartesianGrid,
   Tooltip,
   Legend,
   ResponsiveContainer,
@@ -19,20 +19,46 @@ import {
 import { toast } from "react-toastify";
 
 const AppDetails = () => {
-  const [installed, setInstalled] = useState(false);
-
-  const handleInstalled = () => {
-    setInstalled(!installed);
-    toast.success('Installed Successfully')
-  };
-
   const { id } = useParams();
-  const { products, loading, error } = useAppsHook();
+  const { products, loading } = useAppsHook();
+
+  // Installed state localStorage check দিয়ে initialize
+  const [installed, setInstalled] = useState(() => {
+    const alreadyStorage = JSON.parse(localStorage.getItem("installed")) || [];
+    return alreadyStorage.some((item) => item.id === Number(id));
+  });
+
   if (loading) {
     return <p className="text-5xl">loading...........</p>;
   }
 
   const product = products.find((app) => app.id === Number(id));
+
+  if (!product) {
+    return (
+      <div className="text-center py-12 bg-[#F5F5F5]">
+        <img className="mx-auto" src={appErrorImage} alt="" />
+        <p className="mt-4 text-gray-500 font-semibold">
+          The app you are looking for does not exist.
+        </p>
+        <div className="flex gap-4 justify-center mt-4">
+          <Link
+            to="/"
+            className="btn bg-gradient-to-r from-[#6933E5] to-[#995CF1] text-white "
+          >
+            Home page !
+          </Link>
+          <Link
+            to="/applications"
+            className="btn bg-gradient-to-r from-[#6933E5] to-[#995CF1] text-white "
+          >
+            Browse Apps !
+          </Link>
+        </div>
+      </div>
+    );
+  }
+
   const {
     image,
     title,
@@ -44,10 +70,27 @@ const AppDetails = () => {
     downloads,
   } = product;
 
+  const handleInstalled = () => {
+    const alreadyStorage = JSON.parse(localStorage.getItem("installed")) || [];
+
+    // Duplicate check
+    const duplicate = alreadyStorage.some((item) => item.id === product.id);
+    if (duplicate) {
+      return toast("Already added");
+    }
+
+    const updatedList = [...alreadyStorage, product];
+    localStorage.setItem("installed", JSON.stringify(updatedList));
+    setInstalled(true);
+    toast.success("Installed Successfully");
+  };
+
+  // For chart
   const sortedRatings = [...ratings].sort((a, b) =>
     b.name.localeCompare(a.name)
   );
 
+  // Average rating
   const totalStars = ratings.reduce(
     (sum, rating, i) => sum + (i + 1) * rating.count,
     0
@@ -60,9 +103,9 @@ const AppDetails = () => {
       <Container>
         {/* install app */}
         <div className="grid grid-cols-12 gap-4 pb-8">
-          <div className="col-span-12 lg:col-span-2  ">
-            <div className=" lg:bg-[#D9D9D9] lg:p-2 rounded-xl">
-              <img className="w-48 lg:w-full " src={image} alt="" />
+          <div className="col-span-12 lg:col-span-2">
+            <div className="lg:bg-[#D9D9D9] lg:p-2 rounded-xl">
+              <img className="w-48 lg:w-full" src={image} alt="" />
             </div>
           </div>
 
@@ -97,7 +140,7 @@ const AppDetails = () => {
                 disabled={installed}
                 onClick={handleInstalled}
                 className={`btn text-white ${
-                  installed ? "!bg-gray-400" : "bg-[#00D390]"
+                  installed ? "!bg-gray-400 cursor-not-allowed" : "bg-[#00D390]"
                 }`}
               >
                 {installed ? "Already Installed" : `Install Now ( ${size} MB )`}
@@ -118,13 +161,16 @@ const AppDetails = () => {
                 data={sortedRatings}
                 margin={{ top: 20, right: 30, left: 0, bottom: 20 }}
                 barCategoryGap="25%"
-                
               >
                 <XAxis type="number" />
                 <YAxis type="category" dataKey="name" />
                 <Tooltip />
                 <Legend />
-                <Bar dataKey="count" fill="#FF8811" activeBar={{ fill: "#6B35E5" }}/>
+                <Bar
+                  dataKey="count"
+                  fill="#FF8811"
+                  activeBar={{ fill: "#6B35E5" }}
+                />
               </BarChart>
             </ResponsiveContainer>
           </div>

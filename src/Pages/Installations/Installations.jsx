@@ -1,35 +1,67 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Container from "../../Components/Container/Container";
-import downloadImage from "../../assets/icon-downloads.png";
-import ratingImage from "../../assets/icon-ratings.png";
+import InstalledCard from "./InstalledCard";
+import { Link } from "react-router";
 
 const Installations = () => {
+  const [installedApp, setInstalledApp] = useState([]);
+  const [sortOrder, setSortOrder] = useState("none");
+  useEffect(() => {
+    const saveItems = JSON.parse(localStorage.getItem("installed"));
+    if (saveItems) {
+      setInstalledApp(saveItems);
+    }
+  }, []);
+
+  const sortedItem = () => {
+    if (sortOrder === "size-asc") {
+      return [...installedApp].sort((a, b) => a.size - b.size);
+    } else if (sortOrder === "size-desc") {
+      return [...installedApp].sort((a, b) => b.size - a.size);
+    } else {
+      return installedApp;
+    }
+  };
+
+  const handleRemove = (id) => {
+    const savedItems = JSON.parse(localStorage.getItem("installed"));
+    let updatedList = savedItems.filter((item) => item.id !== id);
+    setInstalledApp(updatedList);
+    localStorage.setItem("installed", JSON.stringify(updatedList));
+  };
+
   return (
     <div className="bg-[#F5F5F5]">
       <Container>
-        <div className="text-center py-16 space-y-2">
+        <div className="text-center pt-12 pb-8 space-y-2">
           <h3 className="font-bold text-4xl text-[#001931]">
             Your Installed Apps
           </h3>
           <p className="text[#627382]">
             Explore All Trending Apps on the Market developed by us
           </p>
+          <hr className="mt-8 border-top-1 border-gray-200" />
         </div>
 
         {/* installed app design */}
         <div className="flex justify-between items-center">
           <div>
             <h2 className="font-semibold">
-              <span>1</span> Apps Found
+              <span>{installedApp.length}</span> Apps Found
             </h2>
           </div>
-        {/* sort */}
+
+          {/* sort */}
           <div>
             <label className="w-full max-w-xs">
-              <select className="select">
+              <select
+                value={sortOrder}
+                onChange={(e) => setSortOrder(e.target.value)}
+                className="select"
+              >
                 <option value="none">Sort by Size</option>
                 <option value="size-asc">Low-to-High</option>
-                <option value="size-desc">High &gt; Low</option>
+                <option value="size-desc">High-to-Low</option>
               </select>
             </label>
           </div>
@@ -37,36 +69,24 @@ const Installations = () => {
 
         {/* installed appCard design */}
 
-        <div className="space-y-4 py-10">
-          <div className="bg-white p-4 flex justify-between items-center rounded-md">
-            <div className="flex items-center gap-4">
-              <div className="bg-[#D9D9D9] p-5 rounded-xl">
-                <img className="w-8" src={ratingImage} alt="" />
-              </div>
-              <div className="space-y-2">
-                <h3>Forest: Focus for Productivity</h3>
-                <div className="flex gap-4 ">
-                  <div className="flex items-center gap-1">
-                    <img className="w-4" src={downloadImage} alt="" />
-                    <span className="text-[#00D390]">9M</span>
-                  </div>
-                  <div className="flex items-center gap-1">
-                    <img className="w-4" src={ratingImage} alt="" />
-                    <span className="text-[#FF8811]">5</span>
-                  </div>
-                  <div>
-                    <p className="text-[#627382]">258 MB</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div>
-              <button className="btn btn-sm bg-[#00D390] text-white">
-                Uninstall
-              </button>
+        {installedApp.length === 0 ? (
+          <div className="text-center h-[365px] space-y-6">
+            <h2 className="text-6xl font-bold pt-20">No app installed</h2>
+            <div className='flex justify-center'>
+                <Link to="/applications" className="btn bg-gradient-to-r from-[#6933E5] to-[#995CF1] text-white ">Browse Apps !</Link>
             </div>
           </div>
-        </div>
+        ) : (
+          <div className="space-y-4 py-12">
+            {sortedItem().map((items) => (
+              <InstalledCard
+                key={items.id}
+                item={items}
+                handleRemove={handleRemove}
+              ></InstalledCard>
+            ))}
+          </div>
+        )}
       </Container>
     </div>
   );

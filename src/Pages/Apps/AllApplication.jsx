@@ -4,8 +4,9 @@ import { CiSearch } from "react-icons/ci";
 import useAppsHook from "../../Hooks/useAppsHook";
 import AppsCard from "./AppsCard";
 
+
 const AllApplication = () => {
-  const { products, loading, error } = useAppsHook();
+  const { products, loading} = useAppsHook();
   const [search,setSearch] = useState('');
   
   if(loading){
