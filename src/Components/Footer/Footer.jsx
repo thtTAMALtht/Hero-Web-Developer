@@ -84,7 +84,7 @@ const Footer = () => {
       </Container>
       <section className="text-center py-4 bg-[#1d2735]">
           <p className="text-white -tracking-tighter">
-            &copy;2025 Hero-App-Developer - All Rights Reserved
+            &copy;2025 Hero-AppVista - All Rights Reserved
           </p>
         </section>
     </div>
