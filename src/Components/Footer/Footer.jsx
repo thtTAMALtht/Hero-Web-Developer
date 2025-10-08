@@ -55,7 +55,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div class="col-span-12 lg:col-span-2  text-gray-300 lg:flex flex-col justify-center items-end space-y-4">
+          <div className="col-span-12 lg:col-span-2  text-gray-300 lg:flex flex-col justify-center items-end space-y-4">
             <h3 className="text-xl tracking-widest">Get in touch</h3>
             <ul className="flex justify-center gap-5 text-lg">
               <li>
