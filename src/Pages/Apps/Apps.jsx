@@ -23,12 +23,6 @@ const Apps = ({trandingApps}) => {
             }
         </div>
         
-        
-
-
-
-
-
         <div className="text-center pt-10">
           <Link to="/applications" className=" btn px-8 py-4 text-white bg-gradient-to-r from-[#6933E5] to-[#995CF1]">
             Show All

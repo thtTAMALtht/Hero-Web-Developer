@@ -1,364 +1,662 @@
 [
-    {
+  {
       "id": 1,
       "image": "https://i.ibb.co.com/Q3pJ4hgD/unnamed-1.png",
       "title": "TaskMaster Pro",
       "companyName": "ZenTech Studios",
       "description": "TaskMaster Pro is a comprehensive productivity tool designed to streamline your daily routine, improve time management, and keep you motivated. It combines task scheduling, habit tracking, and goal-setting into one intuitive interface. Whether you're a student juggling assignments or a professional managing projects, this app helps break down large tasks into manageable steps. Custom reminders, color-coded categories, and progress analytics keep you focused throughout the day. Built-in calendar integration ensures you never miss important deadlines. With its sleek design and intelligent notifications, TaskMaster Pro makes staying organized feel effortless and rewarding.",
       "size": 52.3,
-      "reviews": 12500,
+      "reviews": "12.5K",
       "ratingAvg": 4.6,
-      "downloads": 120000,
+      "downloads": "120K",
       "ratings": [
-        { "name": "1 star", "count": 800 },
-        { "name": "2 star", "count": 500 },
-        { "name": "3 star", "count": 1200 },
-        { "name": "4 star", "count": 3200 },
-        { "name": "5 star", "count": 7300 }
+          {
+              "name": "1 star",
+              "count": 800
+          },
+          {
+              "name": "2 star",
+              "count": 500
+          },
+          {
+              "name": "3 star",
+              "count": 1200
+          },
+          {
+              "name": "4 star",
+              "count": 3200
+          },
+          {
+              "name": "5 star",
+              "count": 7300
+          }
       ]
-    },
-    {
+  },
+  {
       "id": 2,
       "image": "https://i.ibb.co.com/Q3T7yWSz/unnamed.png",
       "title": "FitTrack",
       "companyName": "MoveWell Inc.",
       "description": "FitTrack empowers you to take control of your health and fitness goals with a dynamic, user-friendly interface. Track workouts, log calorie intake, and monitor progress across multiple fitness metrics. Personalized insights adapt to your routine, ensuring you're always moving forward. Whether you're working toward weight loss, strength training, or cardio improvements, FitTrack provides custom workout plans tailored to your body and goals. Integration with wearables and fitness apps helps centralize your data. With motivational badges and weekly performance summaries, FitTrack turns healthy living into a rewarding, measurable journey.",
       "size": 68.1,
-      "reviews": 9830,
+      "reviews": "9.8K",
       "ratingAvg": 4.4,
-      "downloads": 87500,
+      "downloads": "87.5K",
       "ratings": [
-        { "name": "1 star", "count": 600 },
-        { "name": "2 star", "count": 400 },
-        { "name": "3 star", "count": 900 },
-        { "name": "4 star", "count": 2800 },
-        { "name": "5 star", "count": 5130 }
+          {
+              "name": "1 star",
+              "count": 600
+          },
+          {
+              "name": "2 star",
+              "count": 400
+          },
+          {
+              "name": "3 star",
+              "count": 900
+          },
+          {
+              "name": "4 star",
+              "count": 2800
+          },
+          {
+              "name": "5 star",
+              "count": 5130
+          }
       ]
-    },
-    {
+  },
+  {
       "id": 3,
       "image": "https://i.ibb.co.com/BMTf4X7/mobile-application-2645-2.png",
       "title": "NoteEase",
       "companyName": "Paperless Labs",
       "description": "NoteEase is your go-to app for capturing thoughts, managing tasks, and staying organized, all in one streamlined space. Whether you're jotting down quick ideas or structuring a complex project, NoteEase adapts to your workflow. With cloud sync, your notes stay updated across all devices, allowing seamless access anytime, anywhere. Features like folders, tags, and rich-text formatting provide powerful organization tools. Collaborate on shared notes in real time or lock personal entries with encryption for privacy. Designed for students, professionals, and creatives alike, NoteEase makes note-taking smarter and more intuitive.",
       "size": 38.5,
-      "reviews": 17200,
+      "reviews": "17.2K",
       "ratingAvg": 4.8,
-      "downloads": 21000,
+      "downloads": "21K",
       "ratings": [
-        { "name": "1 star", "count": 400 },
-        { "name": "2 star", "count": 300 },
-        { "name": "3 star", "count": 800 },
-        { "name": "4 star", "count": 3200 },
-        { "name": "5 star", "count": 12300 }
+          {
+              "name": "1 star",
+              "count": 400
+          },
+          {
+              "name": "2 star",
+              "count": 300
+          },
+          {
+              "name": "3 star",
+              "count": 800
+          },
+          {
+              "name": "4 star",
+              "count": 3200
+          },
+          {
+              "name": "5 star",
+              "count": 12300
+          }
       ]
-    },
-    {
+  },
+  {
       "id": 4,
       "image": "https://i.ibb.co.com/gb70F9yF/unnamed-2.png",
       "title": "PhotoFixer",
       "companyName": "PixelPoint",
       "description": "PhotoFixer is a powerful photo editing app that lets you enhance, retouch, and transform your images effortlessly with AI-powered tools. Perfect for both casual users and professional photographers, it offers one-tap enhancements, detailed color corrections, and background removal features. Batch editing allows you to edit multiple photos at once, saving time without compromising quality. Apply artistic filters, adjust lighting, and fine-tune every detail with intuitive sliders. Whether you're preparing a social media post or creating a digital portfolio, PhotoFixer turns ordinary shots into stunning visuals with ease.",
       "size": 91.2,
-      "reviews": 7500,
+      "reviews": "7.5K",
       "ratingAvg": 4.3,
-      "downloads": 6400,
+      "downloads": "6.4K",
       "ratings": [
-        { "name": "1 star", "count": 700 },
-        { "name": "2 star", "count": 500 },
-        { "name": "3 star", "count": 1200 },
-        { "name": "4 star", "count": 2200 },
-        { "name": "5 star", "count": 2900 }
+          {
+              "name": "1 star",
+              "count": 700
+          },
+          {
+              "name": "2 star",
+              "count": 500
+          },
+          {
+              "name": "3 star",
+              "count": 1200
+          },
+          {
+              "name": "4 star",
+              "count": 2200
+          },
+          {
+              "name": "5 star",
+              "count": 2900
+          }
       ]
-    },
-    {
+  },
+  {
       "id": 5,
       "image": "https://i.ibb.co.com/JW6yMRFc/Mind-Calm-Ltd-White-Circle.png",
       "title": "MindCalm",
       "companyName": "TranquilApps",
       "description": "MindCalm offers a serene escape from the chaos of everyday life with its library of guided meditations, breathing exercises, and mindfulness tools. Designed to reduce stress, improve focus, and help users sleep better, it’s a perfect companion for mental wellness. Choose from sessions targeting anxiety, productivity, or relaxation, each curated by certified meditation experts. Daily reminders and calming soundscapes encourage consistent practice. Track your progress, set intentions, and explore a growing library of mindfulness journeys. Whether you're a beginner or a seasoned meditator, MindCalm creates a peaceful, healing space wherever you are.",
       "size": 60.8,
-      "reviews": 14300,
+      "reviews": "14.3K",
       "ratingAvg": 4.7,
-      "downloads": 1850,
+      "downloads": "1.9K",
       "ratings": [
-        { "name": "1 star", "count": 600 },
-        { "name": "2 star", "count": 300 },
-        { "name": "3 star", "count": 1000 },
-        { "name": "4 star", "count": 3300 },
-        { "name": "5 star", "count": 9100 }
+          {
+              "name": "1 star",
+              "count": 600
+          },
+          {
+              "name": "2 star",
+              "count": 300
+          },
+          {
+              "name": "3 star",
+              "count": 1000
+          },
+          {
+              "name": "4 star",
+              "count": 3300
+          },
+          {
+              "name": "5 star",
+              "count": 9100
+          }
       ]
-    },
-    {
+  },
+  {
       "id": 6,
       "image": "https://i.ibb.co.com/FL9hq9zT/compressed-f2439b17ca8524b48e9d913147651183.webp",
       "title": "BudgetBuddy",
       "companyName": "FinCore Solutions",
       "description": "BudgetBuddy is a personal finance manager that helps you track expenses, plan budgets, and make smarter money decisions. With real-time notifications and categorized spending reports, you’ll always know where your money is going. The app offers goal-setting tools, bill reminders, and AI-driven savings advice based on your habits. Whether you're saving for a vacation or trying to cut down on unnecessary expenses, BudgetBuddy is like having a financial advisor in your pocket. Visual breakdowns and monthly summaries keep you on track while promoting healthier financial habits over time.",
       "size": 47.6,
-      "reviews": 9500,
+      "reviews": "9.5K",
       "ratingAvg": 4.2,
-      "downloads": 7200,
+      "downloads": "7.2K",
       "ratings": [
-        { "name": "1 star", "count": 800 },
-        { "name": "2 star", "count": 700 },
-        { "name": "3 star", "count": 1300 },
-        { "name": "4 star", "count": 2900 },
-        { "name": "5 star", "count": 3800 }
+          {
+              "name": "1 star",
+              "count": 800
+          },
+          {
+              "name": "2 star",
+              "count": 700
+          },
+          {
+              "name": "3 star",
+              "count": 1300
+          },
+          {
+              "name": "4 star",
+              "count": 2900
+          },
+          {
+              "name": "5 star",
+              "count": 3800
+          }
       ]
-    },
-    {
+  },
+  {
       "id": 7,
       "image": "https://i.ibb.co.com/mCCmsm5H/compressed-783771f0f8c1e2c30b90a424e8805e8d.webp",
       "title": "StudyMate",
       "companyName": "EduSpark",
       "description": "StudyMate is your all-in-one learning companion, offering flashcards, quizzes, and progress tracking to make studying more effective and fun. Designed for students of all levels, it transforms revision into a game-like experience with rewards and level-ups. Create custom flashcards or use pre-made decks covering hundreds of subjects. Track learning milestones and identify weak areas with detailed analytics. Sync across devices and collaborate with classmates in shared study groups. With StudyMate, learning doesn’t feel like a chore—it’s engaging, personalized, and focused on helping you succeed in exams and beyond.",
       "size": 55.1,
-      "reviews": 18800,
+      "reviews": "18.8K",
       "ratingAvg": 4.5,
-      "downloads": 1950,
+      "downloads": "2.0K",
       "ratings": [
-        { "name": "1 star", "count": 900 },
-        { "name": "2 star", "count": 600 },
-        { "name": "3 star", "count": 1500 },
-        { "name": "4 star", "count": 4200 },
-        { "name": "5 star", "count": 11500 }
+          {
+              "name": "1 star",
+              "count": 900
+          },
+          {
+              "name": "2 star",
+              "count": 600
+          },
+          {
+              "name": "3 star",
+              "count": 1500
+          },
+          {
+              "name": "4 star",
+              "count": 4200
+          },
+          {
+              "name": "5 star",
+              "count": 11500
+          }
       ]
-    },
-    {
+  },
+  {
       "id": 8,
       "image": "https://i.ibb.co.com/whdzH5pc/Travelsphere-Logo-square.png",
       "title": "TravelSphere",
       "companyName": "WanderWorks",
       "description": "TravelSphere transforms the way you plan, explore, and experience your trips with an intuitive platform for itinerary management, discovery, and travel inspiration. Search popular destinations, hidden gems, and must-see landmarks with curated guides and user reviews. The app helps you plan activities by interest, weather, or budget. Bookmark places, get local tips, and stay on schedule with built-in travel reminders. Offline access ensures you never miss a beat, even in remote areas. Whether you're a solo traveler or planning a family getaway, TravelSphere makes exploration smarter and stress-free.",
       "size": 83.4,
-      "reviews": 10300,
+      "reviews": "10.3K",
       "ratingAvg": 4.1,
-      "downloads": 8900,
+      "downloads": "8.9K",
       "ratings": [
-        { "name": "1 star", "count": 1000 },
-        { "name": "2 star", "count": 800 },
-        { "name": "3 star", "count": 1500 },
-        { "name": "4 star", "count": 2800 },
-        { "name": "5 star", "count": 4200 }
+          {
+              "name": "1 star",
+              "count": 1000
+          },
+          {
+              "name": "2 star",
+              "count": 800
+          },
+          {
+              "name": "3 star",
+              "count": 1500
+          },
+          {
+              "name": "4 star",
+              "count": 2800
+          },
+          {
+              "name": "5 star",
+              "count": 4200
+          }
       ]
-    },
-    {
+  },
+  {
       "id": 9,
       "image": "https://i.ibb.co.com/gL7mfdG3/unnamed-3.png",
       "title": "QuickTranslate",
       "companyName": "LangTech",
       "description": "QuickTranslate is your ultimate multilingual assistant, offering instant translations for text, speech, and images across 100+ languages. Whether you're traveling, studying, or working internationally, this app delivers fast and accurate results in real time. Just point your camera at a sign, speak a phrase, or paste text—QuickTranslate will handle the rest. It also supports offline mode for use without internet, ensuring you're never stranded in a language barrier. With built-in phrasebooks, pronunciation guides, and conversation mode, QuickTranslate makes global communication smoother, smarter, and more accessible than ever.",
       "size": 75.5,
-      "reviews": 25900,
+      "reviews": "25.9K",
       "ratingAvg": 4.8,
-      "downloads": 34000,
+      "downloads": "34K",
       "ratings": [
-        { "name": "1 star", "count": 900 },
-        { "name": "2 star", "count": 600 },
-        { "name": "3 star", "count": 1300 },
-        { "name": "4 star", "count": 4000 },
-        { "name": "5 star", "count": 19100 }
+          {
+              "name": "1 star",
+              "count": 900
+          },
+          {
+              "name": "2 star",
+              "count": 600
+          },
+          {
+              "name": "3 star",
+              "count": 1300
+          },
+          {
+              "name": "4 star",
+              "count": 4000
+          },
+          {
+              "name": "5 star",
+              "count": 19100
+          }
       ]
-    },
-    {
+  },
+  {
       "id": 10,
       "image": "https://i.ibb.co.com/XZJ2knYX/hgg-1024x560.png",
       "title": "MusicFlow",
       "companyName": "BeatStream",
       "description": "MusicFlow opens the door to a world of endless music streaming with millions of tracks at your fingertips. Create custom playlists, explore curated genres, and discover rising artists from around the globe. Its intelligent recommendation engine learns your tastes over time, helping you discover songs you'll love. The app supports high-quality streaming, offline playback, and seamless cross-device syncing. Whether you're working, relaxing, or on the go, MusicFlow adapts to your mood with just the right soundtrack. Dive into artist bios, lyrics, and trending charts—MusicFlow turns everyday moments into a musical journey.",
       "size": 110.9,
-      "reviews": 50200,
+      "reviews": "50.2K",
       "ratingAvg": 4.6,
-      "downloads": 720000,
+      "downloads": "720K",
       "ratings": [
-        { "name": "1 star", "count": 2500 },
-        { "name": "2 star", "count": 1500 },
-        { "name": "3 star", "count": 4000 },
-        { "name": "4 star", "count": 9500 },
-        { "name": "5 star", "count": 32700 }
+          {
+              "name": "1 star",
+              "count": 2500
+          },
+          {
+              "name": "2 star",
+              "count": 1500
+          },
+          {
+              "name": "3 star",
+              "count": 4000
+          },
+          {
+              "name": "4 star",
+              "count": 9500
+          },
+          {
+              "name": "5 star",
+              "count": 32700
+          }
       ]
-    },
-    {
+  },
+  {
       "id": 11,
       "image": "https://i.ibb.co.com/27c4RwNQ/HS-Tenant-Logo-Resize-Cook-and-Craft.webp",
       "title": "Cook & Craft",
       "companyName": "HomeChef Co.",
       "description": "Cook & Craft is the perfect blend of culinary creativity and practical kitchen planning. Discover a vast collection of delicious, easy-to-follow recipes tailored to your taste, dietary needs, and cooking skill level. Build smart grocery lists directly from recipes and track your pantry to reduce waste. Share your favorite dishes with friends or explore meal plans curated by professional chefs and food bloggers. Whether you're a beginner or a home cooking pro, Cook & Craft makes cooking fun, organized, and rewarding. Elevate your kitchen experience, one recipe at a time.",
       "size": 62.2,
-      "reviews": 8800,
+      "reviews": "8.8K",
       "ratingAvg": 4.5,
-      "downloads": 95000,
+      "downloads": "95K",
       "ratings": [
-        { "name": "1 star", "count": 600 },
-        { "name": "2 star", "count": 400 },
-        { "name": "3 star", "count": 900 },
-        { "name": "4 star", "count": 2500 },
-        { "name": "5 star", "count": 4400 }
+          {
+              "name": "1 star",
+              "count": 600
+          },
+          {
+              "name": "2 star",
+              "count": 400
+          },
+          {
+              "name": "3 star",
+              "count": 900
+          },
+          {
+              "name": "4 star",
+              "count": 2500
+          },
+          {
+              "name": "5 star",
+              "count": 4400
+          }
       ]
-    },
-    {
+  },
+  {
       "id": 12,
       "image": "https://i.ibb.co.com/23F2PX06/unnamed-4.png",
       "title": "SafeVault",
       "companyName": "CyberLock",
       "description": "SafeVault is a secure, feature-rich app designed to protect your most sensitive data, from passwords and notes to documents and images. Using advanced encryption, SafeVault ensures your information stays private and protected, even on shared or public devices. Organize your credentials, autofill login forms, and generate strong passwords effortlessly. You can also store important files in encrypted folders with biometric authentication for an added layer of security. Ideal for both individuals and professionals, SafeVault gives you peace of mind in a digital world full of threats. Trust your data with SafeVault.",
       "size": 44.8,
-      "reviews": 13300,
+      "reviews": "13.3K",
       "ratingAvg": 4.7,
-      "downloads": 15600,
+      "downloads": "15.6K",
       "ratings": [
-        { "name": "1 star", "count": 700 },
-        { "name": "2 star", "count": 500 },
-        { "name": "3 star", "count": 1000 },
-        { "name": "4 star", "count": 2900 },
-        { "name": "5 star", "count": 8200 }
+          {
+              "name": "1 star",
+              "count": 700
+          },
+          {
+              "name": "2 star",
+              "count": 500
+          },
+          {
+              "name": "3 star",
+              "count": 1000
+          },
+          {
+              "name": "4 star",
+              "count": 2900
+          },
+          {
+              "name": "5 star",
+              "count": 8200
+          }
       ]
-    },
-    {
+  },
+  {
       "id": 13,
       "image": "https://i.ibb.co.com/HDmTT3DV/noimage.jpg",
       "title": "NewsStream",
       "companyName": "InfoNet Media",
       "description": "NewsStream delivers personalized, real-time news that keeps you informed without the clutter. From breaking headlines to niche interests, this app curates content tailored to your preferences. Choose from top global sources or local publications, and enjoy a streamlined reading experience with offline support for on-the-go access. Smart categorization and keyword tracking help you stay updated on topics you care about. You can also bookmark stories, adjust reading modes, and receive alerts for trending updates. Whether you're catching up on politics, tech, sports, or culture, NewsStream brings the news to your fingertips, your way.",
       "size": 58.9,
-      "reviews": 6700,
+      "reviews": "6.7K",
       "ratingAvg": 4.0,
-      "downloads": 5900,
+      "downloads": "5.9K",
       "ratings": [
-        { "name": "1 star", "count": 800 },
-        { "name": "2 star", "count": 700 },
-        { "name": "3 star", "count": 1200 },
-        { "name": "4 star", "count": 1900 },
-        { "name": "5 star", "count": 2100 }
+          {
+              "name": "1 star",
+              "count": 800
+          },
+          {
+              "name": "2 star",
+              "count": 700
+          },
+          {
+              "name": "3 star",
+              "count": 1200
+          },
+          {
+              "name": "4 star",
+              "count": 1900
+          },
+          {
+              "name": "5 star",
+              "count": 2100
+          }
       ]
-    },
-    {
+  },
+  {
       "id": 14,
       "image": "https://i.ibb.co.com/YFcM33DS/unnamed-5.png",
       "title": "RideGo",
       "companyName": "UrbanMove",
       "description": "RideGo redefines urban commuting with a seamless experience for booking rides, sharing trips, and earning rewards. Whether you're heading to work or planning a night out, RideGo connects you with nearby drivers in minutes. The app offers fare estimates, route previews, and real-time tracking so you’re always in control. Share rides with friends or other users to reduce costs and your carbon footprint. Loyalty rewards and referral bonuses add value with every trip. Designed for both convenience and sustainability, RideGo is more than just a ride-hailing app—it’s your daily travel partner.",
       "size": 85.7,
-      "reviews": 18900,
+      "reviews": "18.9K",
       "ratingAvg": 4.3,
-      "downloads": 3100,
+      "downloads": "3.1K",
       "ratings": [
-        { "name": "1 star", "count": 1600 },
-        { "name": "2 star", "count": 1200 },
-        { "name": "3 star", "count": 2500 },
-        { "name": "4 star", "count": 5200 },
-        { "name": "5 star", "count": 9400 }
+          {
+              "name": "1 star",
+              "count": 1600
+          },
+          {
+              "name": "2 star",
+              "count": 1200
+          },
+          {
+              "name": "3 star",
+              "count": 2500
+          },
+          {
+              "name": "4 star",
+              "count": 5200
+          },
+          {
+              "name": "5 star",
+              "count": 9400
+          }
       ]
-    },
-    {
+  },
+  {
       "id": 15,
       "image": "https://i.ibb.co.com/BKSxjcVX/compressed-7dfc66e93bb6b73b3b59416902a4ce6c.webp",
       "title": "WeatherWise",
       "companyName": "ClimaSoft",
       "description": "WeatherWise gives you the most accurate and detailed weather updates to help you plan your day, week, or travel with confidence. With real-time radar maps, severe weather alerts, and hour-by-hour forecasts, it keeps you informed and prepared. The interface is clean and customizable, offering everything from sunrise times to wind speed and humidity levels. Whether you're planning a weekend hike or commuting in a storm, WeatherWise helps you stay one step ahead of nature. Get weather updates for multiple locations, set alerts, and personalize your dashboard—WeatherWise makes forecasting smarter.",
       "size": 49.3,
-      "reviews": 11200,
+      "reviews": "11.2K",
       "ratingAvg": 4.5,
-      "downloads": 1500,
+      "downloads": "1.5K",
       "ratings": [
-        { "name": "1 star", "count": 900 },
-        { "name": "2 star", "count": 700 },
-        { "name": "3 star", "count": 1300 },
-        { "name": "4 star", "count": 3100 },
-        { "name": "5 star", "count": 5200 }
+          {
+              "name": "1 star",
+              "count": 900
+          },
+          {
+              "name": "2 star",
+              "count": 700
+          },
+          {
+              "name": "3 star",
+              "count": 1300
+          },
+          {
+              "name": "4 star",
+              "count": 3100
+          },
+          {
+              "name": "5 star",
+              "count": 5200
+          }
       ]
-    },
-    {
+  },
+  {
       "id": 16,
       "image": "https://i.ibb.co.com/nsr1nLzF/Shopsmart3-S-14b1290fc77f61f8277a4036d0090bb2.jpg",
       "title": "ShopSmart",
       "companyName": "RetailEase",
       "description": "ShopSmart is your personal shopping assistant that makes saving money effortless. Easily compare product prices across multiple online stores, track sales, and find exclusive deals tailored to your preferences. With barcode scanning, wishlist features, and price drop alerts, you'll always get the best value for your money. ShopSmart also helps track your spending habits and organize your favorite items in one place. Whether you’re a bargain hunter or just trying to stay on budget, this app puts you in control of your shopping experience—smarter, faster, and more rewarding.",
       "size": 66.5,
-      "reviews": 9200,
+      "reviews": "9.2K",
       "ratingAvg": 4.4,
-      "downloads": 1240,
+      "downloads": "1.2K",
       "ratings": [
-        { "name": "1 star", "count": 700 },
-        { "name": "2 star", "count": 500 },
-        { "name": "3 star", "count": 1200 },
-        { "name": "4 star", "count": 3100 },
-        { "name": "5 star", "count": 3700 }
+          {
+              "name": "1 star",
+              "count": 700
+          },
+          {
+              "name": "2 star",
+              "count": 500
+          },
+          {
+              "name": "3 star",
+              "count": 1200
+          },
+          {
+              "name": "4 star",
+              "count": 3100
+          },
+          {
+              "name": "5 star",
+              "count": 3700
+          }
       ]
-    },
-    {
+  },
+  {
       "id": 17,
       "image": "https://i.ibb.co.com/jvgt1dks/goalsetter-logo-default-thumb.png",
       "title": "GoalSetter",
       "companyName": "FocusWorks",
       "description": "GoalSetter is your personal roadmap to success, helping you set, track, and achieve both short- and long-term goals. Whether you're aiming to improve your fitness, build a new habit, or complete a professional project, GoalSetter makes the journey structured and motivating. Break down large goals into manageable milestones, add deadlines, and monitor your progress with insightful analytics. Smart reminders and motivational quotes keep you on track, while customizable categories help you balance personal, academic, and career goals. With a clean design and intuitive interface, GoalSetter turns ambition into actionable results—one step at a time.",
       "size": 50.2,
-      "reviews": 8700,
+      "reviews": "8.7K",
       "ratingAvg": 4.6,
-      "downloads": 9800,
+      "downloads": "9.8K",
       "ratings": [
-        { "name": "1 star", "count": 500 },
-        { "name": "2 star", "count": 400 },
-        { "name": "3 star", "count": 900 },
-        { "name": "4 star", "count": 2600 },
-        { "name": "5 star", "count": 4300 }
+          {
+              "name": "1 star",
+              "count": 500
+          },
+          {
+              "name": "2 star",
+              "count": 400
+          },
+          {
+              "name": "3 star",
+              "count": 900
+          },
+          {
+              "name": "4 star",
+              "count": 2600
+          },
+          {
+              "name": "5 star",
+              "count": 4300
+          }
       ]
-    },
-    {
+  },
+  {
       "id": 18,
       "image": "https://i.ibb.co.com/BKyxmrD1/LEAP-Logo-500x298.jpg",
       "title": "LanguageLeap",
       "companyName": "Polyglot Labs",
       "description": "LanguageLeap makes language learning interactive, engaging, and community-driven. Practice speaking, listening, and reading through gamified lessons, flashcards, and quizzes. Designed for all learning levels, the app adapts to your pace while tracking your vocabulary retention and grammar mastery. Join global learning groups, participate in challenges, and exchange messages with fellow learners for real-time practice. Built-in pronunciation tools help you sound like a native, and streak tracking keeps you motivated. Whether you're studying for travel, school, or career growth, LanguageLeap transforms the learning process into a fun, rewarding adventure.",
       "size": 59.6,
-      "reviews": 15400,
+      "reviews": "15.4K",
       "ratingAvg": 4.7,
-      "downloads": 22800,
+      "downloads": "22.8K",
       "ratings": [
-        { "name": "1 star", "count": 800 },
-        { "name": "2 star", "count": 500 },
-        { "name": "3 star", "count": 1200 },
-        { "name": "4 star", "count": 3600 },
-        { "name": "5 star", "count": 10300 }
+          {
+              "name": "1 star",
+              "count": 800
+          },
+          {
+              "name": "2 star",
+              "count": 500
+          },
+          {
+              "name": "3 star",
+              "count": 1200
+          },
+          {
+              "name": "4 star",
+              "count": 3600
+          },
+          {
+              "name": "5 star",
+              "count": 10300
+          }
       ]
-    },
-    {
+  },
+  {
       "id": 19,
       "image": "https://i.ibb.co.com/x8BPTfrD/zendiary-logo.png",
       "title": "ZenJournal",
       "companyName": "MindWrite Inc.",
       "description": "ZenJournal is a mindful journaling app that invites you to reflect, grow, and find calm in your everyday life. With guided prompts, mood tracking, and daily writing reminders, it helps you build a meaningful journaling habit. Capture thoughts, emotions, and experiences in a distraction-free space designed for self-awareness. Track patterns in your mood and habits over time to better understand your mental and emotional health. Whether you're processing stress, celebrating wins, or simply clearing your mind, ZenJournal supports your inner journey with a peaceful, private, and deeply personal writing experience.",
       "size": 41.7,
-      "reviews": 7900,
+      "reviews": "7.9K",
       "ratingAvg": 4.5,
-      "downloads": 13700,
+      "downloads": "13.7K",
       "ratings": [
-        { "name": "1 star", "count": 400 },
-        { "name": "2 star", "count": 300 },
-        { "name": "3 star", "count": 1100 },
-        { "name": "4 star", "count": 2500 },
-        { "name": "5 star", "count": 3600 }
+          {
+              "name": "1 star",
+              "count": 400
+          },
+          {
+              "name": "2 star",
+              "count": 300
+          },
+          {
+              "name": "3 star",
+              "count": 1100
+          },
+          {
+              "name": "4 star",
+              "count": 2500
+          },
+          {
+              "name": "5 star",
+              "count": 3600
+          }
       ]
-    },
-    {
+  },
+  {
       "id": 20,
       "image": "https://i.ibb.co.com/Kc2w3sJH/logo-square-white.jpg",
       "title": "EventEase",
       "companyName": "PlanIt Group",
       "description": "EventEase simplifies event planning and coordination, whether you're organizing a small meetup or a large celebration. Create customized event pages, send digital invites, and track RSVPs in real time. Built-in messaging, reminders, and location sharing make communication easy for both hosts and guests. Need help choosing a date or venue? Use EventEase’s smart tools to poll participants and optimize logistics. Photo sharing and post-event feedback features keep the experience alive even after the event ends. Whether for parties, meetings, or community gatherings, EventEase takes the stress out of planning and puts the focus on connection.",
       "size": 72.4,
-      "reviews": 10100,
+      "reviews": "10.1K",
       "ratingAvg": 4.3,
-      "downloads": 9200,
+      "downloads": "9.2K",
       "ratings": [
-        { "name": "1 star", "count": 700 },
-        { "name": "2 star", "count": 600 },
-        { "name": "3 star", "count": 1400 },
-        { "name": "4 star", "count": 3000 },
-        { "name": "5 star", "count": 4400 }
+          {
+              "name": "1 star",
+              "count": 700
+          },
+          {
+              "name": "2 star",
+              "count": 600
+          },
+          {
+              "name": "3 star",
+              "count": 1400
+          },
+          {
+              "name": "4 star",
+              "count": 3000
+          },
+          {
+              "name": "5 star",
+              "count": 4400
+          }
       ]
-    }
-    
-  ]
-  
+  }
+]

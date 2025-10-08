@@ -10,29 +10,11 @@ const AppsCard = ({ app }) => {
   const totalUsers = ratings.reduce((total, rating) => total + rating.count, 0);
   const averageRating = (totalStars / totalUsers).toFixed(1);
 
-  // {
-  //     "image": "https://www.flaticon.com/free-icon/mobile-app_5529337",
-  //     "title": "TravelSphere",
-  //     "companyName": "WanderWorks",
-  //     "id": 8,
-  //     "description": "Plan trips, explore destinations, and find local attractions with ease.",
-  //     "size": 83.4,
-  //     "reviews": 10300,
-  //     "ratingAvg": 4.1,
-  //     "downloads": 890000,
-  //     "ratings": [
-  //       { "name": "1 star", "count": 1000 },
-  //       { "name": "2 star", "count": 800 },
-  //       { "name": "3 star", "count": 1500 },
-  //       { "name": "4 star", "count": 2800 },
-  //       { "name": "5 star", "count": 4200 }
-  //     ]
-  //   },
-
+ 
   return (
     <Link to={`/app/${id}`}>
       <div className="bg-white p-4 rounded-md space-y-4 shadow hover:scale-102 cursor-pointer">
-        <div className="bg-[#D9D9D9] rounded-xl">
+        <div className="">
           <img className="w-full h-[220px]" src={image} alt="" />
         </div>
         <div>

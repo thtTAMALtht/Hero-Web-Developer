@@ -8,6 +8,9 @@ const AllApplication = () => {
   const { products, loading, error } = useAppsHook();
   const [search,setSearch] = useState('');
   
+  if(loading){
+    return <p>Loading...........</p>
+  }
   const searchCondition = search
     .trim()
     .toLowerCase()
