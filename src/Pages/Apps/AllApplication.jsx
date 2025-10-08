@@ -1,10 +1,25 @@
-import React from "react";
+import React, { useState } from "react";
 import Container from "../../Components/Container/Container";
 import { CiSearch } from "react-icons/ci";
 import useAppsHook from "../../Hooks/useAppsHook";
 import AppsCard from "./AppsCard";
+
 const AllApplication = () => {
   const { products, loading, error } = useAppsHook();
+  const [search,setSearch] = useState('');
+  
+  const searchCondition = search
+    .trim()
+    .toLowerCase()
+    .replace(/\s+/g, "")
+    .split(",")
+    .join("");
+
+  const searchProducts = searchCondition
+    ? products.filter((product) =>
+        product.title.toLowerCase().includes(searchCondition)
+      )
+    : products;
 
   return (
     <div className="bg-[#F5F5F5] py-16">
@@ -18,14 +33,16 @@ const AllApplication = () => {
         <div className="flex flex-col lg:flex-row  justify-between items-center py-4">
           <div>
             <h2 className="font-semibold text-xl">
-              <span>({products.length})</span> Apps Found
+              <span>({searchProducts.length})</span> Apps Found
             </h2>
           </div>
-
+            {/* search */}
           <label className="relative">
             <input
+            value={search}
+                onChange={(e)=>setSearch(e.target.value)}
               type="search"
-              className="border border-gray-300 rounded-md px-6 py-1"
+              className="border border-[#6B36E6] rounded-md px-6 py-1"
               placeholder="search Apps"
             />
             <span className="absolute left-1 top-[10px]">
@@ -36,11 +53,19 @@ const AllApplication = () => {
 
         {/* card start*/}
 
-        <div className="grid grid-cols-1 lg:grid-cols-4 gap-4">
-          {products.map((product) => (
-            <AppsCard key={product.id} app={product}></AppsCard>
-          ))}
-        </div>
+        {
+            searchProducts.length === 0 
+            ? 
+            <div className="flex  justify-center items-center py-[110px] rounded-lg">
+                <h3 className="text-xl lg:text-6xl font-bold text-center">Unfortunately we could't find the app<br></br> you are looking for ☹</h3>
+            </div> 
+            : 
+            <div className="grid grid-cols-1 lg:grid-cols-4 gap-4">
+            {searchProducts.map((product) => (
+              <AppsCard key={product.id} app={product}></AppsCard>
+            ))}
+          </div>
+        }
       </Container>
     </div>
   );
