@@ -17,6 +17,7 @@ import {
   ResponsiveContainer,
 } from "recharts";
 import { toast } from "react-toastify";
+import LoadingSpinner from "../../Components/LoadingSpinner/LoadingSpinner";
 
 const AppDetails = () => {
   const { id } = useParams();
@@ -29,7 +30,7 @@ const AppDetails = () => {
   });
 
   if (loading) {
-    return <p className="text-5xl">loading...........</p>;
+    return <LoadingSpinner></LoadingSpinner>;
   }
 
   const product = products.find((app) => app.id === Number(id));

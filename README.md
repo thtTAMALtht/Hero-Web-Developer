@@ -43,7 +43,7 @@
 ---
 
 ## 🌐 Live Demo
-[View Live Demo](https://https://hero-app-vista.netlify.app/)
+[View Live Demo](https://hero-app-vista.netlify.app/)
 
 ---
 
