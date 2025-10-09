@@ -10,7 +10,6 @@ const AppsCard = ({ app }) => {
   const totalUsers = ratings.reduce((total, rating) => total + rating.count, 0);
   const averageRating = (totalStars / totalUsers).toFixed(1);
 
- 
   return (
     <Link to={`/app/${id}`}>
       <div className="bg-white p-4 rounded-md space-y-4 shadow hover:scale-102 cursor-pointer">

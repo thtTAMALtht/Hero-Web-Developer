@@ -11,14 +11,18 @@ const Footer = () => {
       <Container>
         <footer className="grid grid-cols-12 lg:gap-12 py-8 space-y-12 lg:space-y-0 text-center">
           <div className="col-span-12 lg:col-span-6 space-y-4 lg:border-r-1 border-gray-500">
-            <Link to="/" className="flex items-center justify-center lg:justify-start gap-2">
+            <Link
+              to="/"
+              className="flex items-center justify-center lg:justify-start gap-2"
+            >
               <img className="w-12" src={logoImage} alt="" />
               <span className="font-bold text-white text-xl">HERO.IO</span>
             </Link>
             <p className="lg:text-justify text-gray-300">
               We craft innovative apps designed to make everyday life
-              simpler,smarte.<br className="hidden lg:block"></br>Our goal is to turn your ideas into
-              digital experiences that truly make an impact.
+              simpler,smarte.<br className="hidden lg:block"></br>Our goal is to
+              turn your ideas into digital experiences that truly make an
+              impact.
             </p>
           </div>
 
@@ -60,22 +64,22 @@ const Footer = () => {
             <ul className="flex justify-center gap-5 text-lg">
               <li>
                 <a href="https://www.facebook.com/" target="_blank">
-                <FaFacebook />
+                  <FaFacebook />
                 </a>
               </li>
               <li>
                 <a href="https://www.linkedin.com/" target="_blank">
-                <FaLinkedin />
+                  <FaLinkedin />
                 </a>
               </li>
               <li>
                 <a href="https://x.com/" target="_blank">
-                <FaSquareXTwitter />
+                  <FaSquareXTwitter />
                 </a>
               </li>
               <li>
                 <a href="https://www.youtube.com/" target="_blank">
-                <FaYoutube />
+                  <FaYoutube />
                 </a>
               </li>
             </ul>
@@ -83,10 +87,10 @@ const Footer = () => {
         </footer>
       </Container>
       <section className="text-center py-4 bg-[#1d2735]">
-          <p className="text-white -tracking-tighter">
-            &copy;2025 Hero-AppVista - All Rights Reserved
-          </p>
-        </section>
+        <p className="text-white -tracking-tighter">
+          &copy;2025 Hero-AppVista - All Rights Reserved
+        </p>
+      </section>
     </div>
   );
 };

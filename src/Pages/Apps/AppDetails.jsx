@@ -15,6 +15,7 @@ import {
   Tooltip,
   Legend,
   ResponsiveContainer,
+  CartesianGrid,
 } from "recharts";
 import { toast } from "react-toastify";
 import LoadingSpinner from "../../Components/LoadingSpinner/LoadingSpinner";
@@ -163,14 +164,18 @@ const AppDetails = () => {
                 margin={{ top: 20, right: 30, left: 0, bottom: 20 }}
                 barCategoryGap="25%"
               >
+                <CartesianGrid
+                  strokeDasharray="3 3"
+                  vertical={false}
+                  opacity={0.1}
+                />
                 <XAxis type="number" />
                 <YAxis type="category" dataKey="name" />
-                <Tooltip />
-                <Legend />
+                <Tooltip cursor={{ fill: "transparent" }} /> <Legend />
                 <Bar
                   dataKey="count"
                   fill="#FF8811"
-                  activeBar={{ fill: "#6B35E5" }}
+                  activeBar={{ fill: "#6B35E5", stroke: "none" }}
                 />
               </BarChart>
             </ResponsiveContainer>

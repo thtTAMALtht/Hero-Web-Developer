@@ -29,7 +29,7 @@ const Installations = () => {
     let updatedList = savedItems.filter((item) => item.id !== id);
     setInstalledApp(updatedList);
     localStorage.setItem("installed", JSON.stringify(updatedList));
-    toast.warning("Uninstalled successfully")
+    toast.error("Uninstalled successfully");
   };
 
   return (
@@ -74,8 +74,13 @@ const Installations = () => {
         {installedApp.length === 0 ? (
           <div className="text-center h-[365px] space-y-6">
             <h2 className="text-6xl font-bold pt-20">No app installed</h2>
-            <div className='flex justify-center'>
-                <Link to="/applications" className="btn bg-gradient-to-r from-[#6933E5] to-[#995CF1] text-white ">Browse Apps !</Link>
+            <div className="flex justify-center">
+              <Link
+                to="/applications"
+                className="btn bg-gradient-to-r from-[#6933E5] to-[#995CF1] text-white "
+              >
+                Browse Apps !
+              </Link>
             </div>
           </div>
         ) : (

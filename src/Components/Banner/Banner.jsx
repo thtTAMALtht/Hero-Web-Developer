@@ -4,19 +4,20 @@ import appStoreImage from "../../assets/appStore.png";
 import bannerImg from "../../assets/hero.png";
 import Container from "../Container/Container";
 
-
 const Banner = () => {
   return (
     <div className="bg-[#F5F5F5] pt-16">
       <Container>
         <div className="text-center space-y-8">
           <h3 className="font-bold text-4xl lg:text-7xl">
-            We Build<br className="hidden lg:block"></br> <span className="text-[#8452E9] mx-2 lg:mx-4">Productive</span>
+            We Build<br className="hidden lg:block"></br>{" "}
+            <span className="text-[#8452E9] mx-2 lg:mx-4">Productive</span>
             Apps
           </h3>
           <p className="text-[#627382]">
             At HERO.IO, we craft innovative apps designed to make everyday life
-            simpler, smarter, and more exciting.<br className="hidden lg:block"></br> Our goal is to turn your ideas
+            simpler, smarter, and more exciting.
+            <br className="hidden lg:block"></br> Our goal is to turn your ideas
             into digital experiences that truly make an impact.
           </p>
           <div className="flex gap-4 justify-center items-center">
@@ -37,12 +38,11 @@ const Banner = () => {
               <span>App Store</span>
             </a>
           </div>
-            {/* banner image */}
-          
-            <div className="flex justify-center">
-                <img src={bannerImg} alt="banner image" />
-            </div>
-          
+          {/* banner image */}
+
+          <div className="flex justify-center">
+            <img src={bannerImg} alt="banner image" />
+          </div>
         </div>
       </Container>
     </div>

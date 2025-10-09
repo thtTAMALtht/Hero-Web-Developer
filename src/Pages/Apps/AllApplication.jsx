@@ -9,12 +9,13 @@ const AllApplication = () => {
   const { products, loading } = useAppsHook();
   const [search, setSearch] = useState("");
   const [searching, setSearching] = useState(false);
+  
   useEffect(() => {
     if (search.trim() !== "") {
       setSearching(true);
       const timer = setTimeout(() => {
         setSearching(false);
-      }, 500); // টাইপ শেষ হবার 0.5s পরে spinner বন্ধ হবে
+      }, 500);
 
       return () => clearTimeout(timer);
     } else {

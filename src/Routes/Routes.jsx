@@ -19,21 +19,20 @@ const router = createBrowserRouter([
         Component: Home,
       },
       {
-        path: '/applications',
+        path: "/applications",
         Component: AllApplication,
-        
       },
       {
-        path: '/installation',
+        path: "/installation",
         Component: Installations,
       },
       {
-        path: '/app/:id',
-        Component: AppDetails
+        path: "/app/:id",
+        Component: AppDetails,
       },
       {
-        path: '*',
-        Component: ErrorPage
+        path: "*",
+        Component: ErrorPage,
       },
     ],
   },
